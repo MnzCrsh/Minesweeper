@@ -11,6 +11,6 @@ public class Game
     public int      Height     { get; set; }
     public int      MinesCount { get; set; }
     [Required]
-    public char[][] Field      { get; set; } = null!;
+    public char[,]  Field     { get; set; } = null!;
     public bool     Completed  { get; set; }
 }
